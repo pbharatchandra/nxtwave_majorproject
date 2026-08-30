@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import Header from '../Header'
 import EvaluationContext from '../../context/EvaluationProvider'
-import img from "https://github.com/pbharatchandra/nxtwave_majorproject-/blob/3ad6ca0f3087b6177e1b63887d9a9e523a523263/src/assets/nxtacceesslogo_removebg.png"
+import img from '../../assets/nxtacceesslogo_removebg.png'
 import './index.css'
 
 const Results = () => {

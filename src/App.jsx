@@ -1,15 +1,13 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Login from '../src/comopnents/Login'
-import Home from '../src/comopnents/Home'
-import Assessment from '../src/comopnents/Assesment'
-import Results from '../src/comopnents/Results'
-import NotFound from '../src/comopnents/NotFound'
-import ProtectedRoute from '../src/comopnents/ProtectedRoute'
+import Login from './comopnents/Login'
+import Home from './comopnents/Home'
+import Assessment from './comopnents/Assesment'
+import Results from './comopnents/Results'
+import NotFound from './comopnents/NotFound'
+import ProtectedRoute from './comopnents/ProtectedRoute'
+import { EvaluationProvider } from './context/EvaluationProvider'
 
-import { EvaluationProvider } from './context/EvaluationProvider.jsx'
-
-import './App.css'
 const App = () => (
   <EvaluationProvider>
     <BrowserRouter>
@@ -43,8 +41,7 @@ const App = () => (
           }
         />
 
-        <Route path="/not-found" element={<NotFound />} />
-        <Route path="*" element={<Navigate to="/not-found" replace />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </EvaluationProvider>
