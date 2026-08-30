@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import Cookies from 'js-cookie'
+import img from '../../assets/nxtacceesslogo_removebg.png'
 
 import './index.css'
 
@@ -59,7 +60,7 @@ const Login = () => {
         <div className="login-page">
             <div className="login-card">
                 <img
-                    src="https://assets.ccbp.in/frontend/react-js/nxt-assess-logo.png"
+                    src={img}
                     alt="login website logo"
                     className="login-logo"
                 />
