@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import Header from '../Header'
 import EvaluationContext from '../../context/EvaluationProvider'
-
+import img from "C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/assets/nxtacceesslogo_removebg.png"
 import './index.css'
 
 const Results = () => {
@@ -35,7 +35,7 @@ const Results = () => {
 
             <div className="results-container">
                 <img
-                    src="https://assets.ccbp.in/frontend/react-js/nxt-assess-results-img.png"
+                    src={img}
                     alt="submit"
                     className="results-image"
                 />
