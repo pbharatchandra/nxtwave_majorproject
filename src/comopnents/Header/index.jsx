@@ -3,7 +3,7 @@ import Cookies from 'js-cookie'
 import { useContext } from 'react'
 import EvaluationContext from '../../context/EvaluationProvider'
 import './index.css'
-import img from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/assets/nxtacceesslogo.png'
+import img from '/src/assets/nxtacceesslogo_removebg.png'
 const Header = () => {
     const { resetAssessment } = useContext(EvaluationContext)
     const navigate = useNavigate()

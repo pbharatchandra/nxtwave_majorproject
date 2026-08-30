@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 import Login from '../src/comopnents/Login'
-import Home from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/comopnents/Home'
-import Assessment from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/comopnents/Assesment'
-import Results from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/comopnents/Results'
-import NotFound from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/comopnents/NotFound'
-import ProtectedRoute from 'C:/Users/pbhar/nxtwave/nxtwave_majorproject/src/comopnents/ProtectedRoute'
+import Home from '../src/comopnents/Home'
+import Assessment from '../src/comopnents/Assesment'
+import Results from '../src/comopnents/Results'
+import NotFound from '../src/comopnents/NotFound'
+import ProtectedRoute from '../src/comopnents/ProtectedRoute'
 
 import { EvaluationProvider } from './context/EvaluationProvider.jsx'
 
