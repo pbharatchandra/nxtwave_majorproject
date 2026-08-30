@@ -1,0 +1,70 @@
+.home-page {
+    min-height: 100vh;
+    background-color: #f8fafc;
+}
+
+.home-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.home-text-container {
+    flex: 1;
+}
+
+.home-text-container h1 {
+    color: #164687;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.instructions-list {
+    padding-left: 24px;
+    color: #475569;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.start-button {
+    margin-top: 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #164687;
+    color: #ffffff;
+    padding: 13px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.assessment-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-content {
+        flex-direction: column-reverse;
+        padding: 40px 24px;
+        gap: 30px;
+    }
+
+    .home-text-container h1 {
+        font-size: 28px;
+    }
+
+    .assessment-image {
+        max-width: 350px;
+    }
+}
